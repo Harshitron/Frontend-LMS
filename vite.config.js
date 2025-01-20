@@ -11,5 +11,6 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0', // Make the server accessible externally
+    allowedHosts: ['frontend-lms-ue24.onrender.com'],
   },
 });
