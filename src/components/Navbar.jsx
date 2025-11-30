@@ -129,7 +129,7 @@ const AuthButtons = ({ navigate }) => (
     <Button variant="ghost" onClick={() => navigate("/login")} className="hover:bg-gray-100 dark:hover:bg-gray-800">
       Login
     </Button>
-    <Button onClick={() => navigate("/signup")} className="bg-blue-600 hover:bg-blue-700 text-white">
+    <Button onClick={() => navigate("/login")} className="bg-blue-600 hover:bg-blue-700 text-white">
       Sign Up
     </Button>
   </div>
@@ -181,7 +181,7 @@ const MobileNavbar = ({ user, logoutHandler }) => {
               <Button variant="ghost" onClick={() => navigate("/login")} className="justify-start">
                 Login
               </Button>
-              <Button onClick={() => navigate("/signup")} className="bg-blue-600 hover:bg-blue-700 text-white">
+              <Button onClick={() => navigate("/login")} className="bg-blue-600 hover:bg-blue-700 text-white">
                 Sign Up
               </Button>
             </>
