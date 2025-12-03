@@ -68,9 +68,9 @@ const HeroSection = () => {
 
         {/* 1:1 Counselling Button */}
         <Button
-          onClick={() => navigate("https://docs.google.com/forms/d/e/1FAIpQLSd4yV4bphKlXuFjlVXQHieUAMgqtAsUcq6_YtIxW1zxH6233w/viewform")}
-          className="mt-4 bg-pink-600 hover:bg-pink-700 dark:bg-pink-700 dark:hover:bg-pink-800 text-white font-semibold rounded-full px-6 py-2 transition-all duration-300 transform hover:scale-105 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-50 animate-fade-in-up animation-delay-800"
-        >
+  onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd4yV4bphKlXuFjlVXQHieUAMgqtAsUcq6_YtIxW1zxH6233w/viewform"}
+  className="mt-4 bg-pink-600 hover:bg-pink-700 dark:bg-pink-700 dark:hover:bg-pink-800 text-white font-semibold rounded-full px-6 py-2 transition-all duration-300 transform hover:scale-105 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-50 animate-fade-in-up animation-delay-800"
+>
           💬 1:1 Counselling
         </Button>
       </div>
